@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "eTimesheets Scraper",
+  "version": "1.5.0",
+  "description": "A Chrome extension that performs a data scrape, calculates shift entries of a specified month and displays a table for the Evvie Portal web application",
+
+  "icons": {
+    "16": "icons/ets_16.png",
+    "48": "icons/ets_48.png",
+    "128": "icons/ets_128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["/html/results.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "js": ["/js/results.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "/html/popup.html"
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "storage", 
+    "activeTab", 
+    "tabs",
+    "scripting"
+  ]
+}

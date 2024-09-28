@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eTimesheets Scraper</title>
+    <link rel="stylesheet" href="/css/results.css">
+</head>
+<body>
+    <h1>eTimesheets Scraper</h1>
+    <table id="shiftTable"> 
+        <thead>
+            <tr>
+                <th>Start Date-End Date</th>
+                <th>Shift Duration</th>
+                <th>Start Time-End Time</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <script src="/js/results.js"></script>
+    </table>
+    <form id="monthForm">
+        <label>Enter the month you would like to view for the total<br>
+            shift duration of that month (e.g., "06" for June)<br>
+            <input type="text" id="month" name="month">
+            <input type="submit" id="submit"><br>
+            <label id="monthTotalDuration"></label>
+        </label>
+    </form>
+</body>
+</html>

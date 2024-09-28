@@ -1,0 +1,30 @@
+#retrieveShifts {
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    border-width: 4px;
+    border-style: double;
+}
+
+#retrieveShifts:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: solid;
+    background-color: crimson;
+}
+
+html {
+    width: 185px;
+    height: 100px;
+    border-width: 4px;
+    border-style: double;
+    border-color: black;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+    font-family: 'monospace';
+    border-width: 4px;
+    border-style: solid;
+}

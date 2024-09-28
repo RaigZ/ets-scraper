@@ -1,0 +1,53 @@
+table, td, th {
+    margin-top: 1rem;
+    border: thin solid black;
+}
+
+tr td:last-child {
+    text-align: center;
+}
+
+body {
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-top: 2rem;
+    background-color:ghostwhite;
+}
+
+th {
+    padding: 8px;
+}
+
+form {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#month {
+    width: 6%;
+    margin-top: 1rex;
+}
+
+#monthTotalDuration {
+    display: none;
+    font-size: large;
+    border-width: 3px;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: black;
+    color:aliceblue;
+    background-color:crimson;
+}
+
+#submit {
+    margin-bottom: 1rex;
+}
